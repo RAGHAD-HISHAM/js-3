@@ -56,6 +56,7 @@ class Account {
 }
 
 let acc = new Account;
-acc.set_balance = 200;
+acc.set_balance(200);
 acc.deposite(20)
+acc.withdraw(50)
 console.log(acc)
